@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 25vh;
+    padding-top: 5vh;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg);
+}
+
+.text {
+    font-size: 15vh;
+    font-family: 'Bungee Spice', cursive;
+}
+
+h2 {
+    margin-top: 10vh;
+    color: blue;
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.box {
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg);
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score,
+.score2 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 5vh;
+}
+
+.text2 {
+    margin-left: 72vh;
+    margin-top: 15vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-weight: bold;
+}
+
+.click {
+    margin-left: 22vh;
+}
+
+.ff,
+.tt {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 3vh;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    height: 5vh;
+    color: white;
+    background-color: coral;
+    margin-top: 3vh;
+    margin-left: 95vh;
+    width: 10%;
+    transition: 0.6s all;
+}
+
+button:hover {
+    background-color: white;
+    color: coral;
+}
